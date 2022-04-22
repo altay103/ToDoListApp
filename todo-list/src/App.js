@@ -8,7 +8,7 @@ import {
   Spacer
 } from '@chakra-ui/react';
 import Header from './components/Header';
-import Task from './components/Task';
+import TaskManager from './components/TaskManager';
 
 
 function App() {
@@ -17,9 +17,7 @@ function App() {
       <Center>
         <VStack>
           <Header></Header>
-          <Spacer></Spacer>
-          <Task></Task>
-          <Task></Task>
+          <TaskManager></TaskManager>
         </VStack>
         
       </Center>
